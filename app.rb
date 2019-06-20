@@ -1,3 +1,5 @@
+# Load Models
+Dir["./app/models/*.rb"].each {|file| require file }
 require 'json'
 require 'sinatra'
 require 'sinatra/activerecord'
